@@ -1,10 +1,16 @@
 
 package firstcode;
 
-public class Firstcode {
-    public static void main(String[] args) {
+import java.awt.Desktop;
+import java.net.URI;
 
-        System.out.println("#changed-@tomorrow");
+
+
+public class Firstcode {
+    public static void main(String[] RDJ) throws Exception {
+
+            Desktop desk = Desktop.getDesktop();
+        desk.browse(new URI("https://youtu.be/dQw4w9WgXcQ"));
     }
     
 }
